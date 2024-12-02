@@ -7,7 +7,8 @@ export default function SearchBar() {
       <input
         type="text"
         className="ml-2 w-full bg-gray-100 text-gray-700 placeholder-gray-400 focus:outline-none rounded-md"
-        placeholder="Busque aqui"/>
+        placeholder="Busque aqui"
+      />
     </div>
   );
 }

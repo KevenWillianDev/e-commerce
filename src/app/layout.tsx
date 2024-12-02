@@ -19,10 +19,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head className="bg-gray-700  flex justify-center items-center h-10 p-8">
-        <Input/>
-      </head>
       <body>
+      <header className="bg-gray-700  flex justify-center items-center h-10 p-8">
+        <Input/>
+      </header>
       <CartButton/>
       <SideBar/>
         {children}
